@@ -14,7 +14,7 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Mess
 # ============= কনফিগারেশন =============
 TELEGRAM_BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN')
 ADMIN_CHAT_ID = int(os.environ.get('ADMIN_CHAT_ID', 7843284032))
-RENDER_URL = os.environ.get('RENDER_URL', "https://free-jw90.onrender.com")
+RENDER_URL = os.environ.get('RENDER_URL', "https://free-cspb.onrender.com")
 if not TELEGRAM_BOT_TOKEN:
     print("ERROR: TELEGRAM_BOT_TOKEN not set!")
     exit(1)
